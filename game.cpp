@@ -274,7 +274,7 @@ int main()
 			cout << "Incorrect input!";
 			break;
 		}
-		swtichCase(selectCountry, totalQ, allQuestionsBulgaria, allQuestionsGermany, allOptionsGermany, allQuestionsSpain, allOptionsSpain, correctAnsSpain, correctAnsGermany, allOptionsBulgaria, selectedOption, correctAnsBulgaria, correct, incorrect, skipped, check2);
+		swtich(selectCountry, totalQ, allQuestionsBulgaria, allQuestionsGermany, allOptionsGermany, allQuestionsSpain, allOptionsSpain, correctAnsSpain, correctAnsGermany, allOptionsBulgaria, selectedOption, correctAnsBulgaria, correct, incorrect, skipped, check2);
 		system("cls");
 		if (check2 == 1)
 		{
