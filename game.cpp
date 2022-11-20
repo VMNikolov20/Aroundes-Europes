@@ -62,6 +62,28 @@ void printCorrectOptions()
 	cout << "********************************* " << endl << endl;
 }
 
+void result(int totalQ, int selectedOption[], string correctAnsBulgaria[], string allOptionsBulgaria[10][4], int correct, int incorrect, int skipped)
+{
+	for (int i = 0; i < totalQ; i++)
+	{
+		if (selectedOption[i] != 0) {
+			if (correctAnsBulgaria[i] == allOptionsBulgaria[i][selectedOption[i] - 1]) {
+				correct++;
+			}
+			else {
+				incorrect++;
+			}
+		}
+		else {
+			skipped++;
+		}
+	}
+	cout << "Total number of questions : " << totalQ << endl;
+	cout << "Correct answer : " << correct << endl;
+	cout << "Wrong answer : " << incorrect << endl;
+	cout << "Skipped : " << skipped << endl;
+}
+
 
 int main()
 {
