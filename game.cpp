@@ -65,6 +65,16 @@ void compareQuestions(int totalQ,string allQuestions[], string allOptions[10][4]
 		cout << endl << "---------------------------------------------" << endl;
 	}
 }
+void printSelectCountry()
+{
+	
+	cout << "Select a country:" << endl;
+	cout << "1.Bulgaria" << endl;
+	cout << "2.Germany" << endl;
+	cout << "3.Spain" << endl;
+	
+	
+}
 void printResult()
 {
 	cout << endl << endl;
