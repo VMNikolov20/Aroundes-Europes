@@ -172,41 +172,41 @@ void swtich(int selectCountry, int totalQ, string allQuestionsBulgaria[], string
 int main()
 {
   string allQuestionsBulgaria[10] = {    
-	"Which is the smallest country?",
-	"Which is the capital of Argentina?",
-	"Which is called world population day?",
-	"Who is the first person to draw the map of earth?",
-	"Who was the first lady astronaut?",
-	"Who is the father of chemistry?",
-	"Who is the inventor of Rail Engine?",
-	"Which is the capital of America?",
-	"Which is not the member of G-8?",
-	"Which is the biggest ocean?" };
+	"Which is the biggest city in this country?",
+	"Which is the capital of Bulgaria?",
+	"Who created Bulgaria?",
+	"When was Bulgaria created?",
+	"Who was his son?",
+	"Who is the father of the creator of this country?",
+	"How is our sea called?",
+	"How is a soup of yoghurt called in Bulgaria?",
+	"Is shkembe chorba good?",
+	"Was the test difficult?" };
   
   
   string allQuestionsGermany[10] = {    // all the questions
-	"Which is the smallest country?",
-	"Which is the capital of Argentina?",
-	"Which is called world population day?",
-	"Who is the first person to draw the map of earth?",
-	"Who was the first lady astronaut?",
-	"Who is the father of chemistry?",
-	"Who is the inventor of Rail Engine?",
-	"Which is the capital of America?",
-	"Which is not the member of G-8?",
-	"Which is the biggest ocean?" };
+	"What form of government is Germany?",
+	"What is the capital of Germany?",
+	"What currency is used in Germany?",
+	"Who is the chancellor of Germany?",
+	"What colours are on the flag of Germany?",
+	"How many official languages are there in Germany?",
+	"How many countries share a border with Germany (+ 1 bonus point per country)?",
+	"What is the name for Germany in the German language?",
+	"How is the highway system called in Germany?",
+	"What was the Deutschmark?" };
 	
 	string allQuestionsSpain[10] = {    // all the questions
-	"Which is the smallest country?",
-	"Which is the capital of Argentina?",
-	"Which is called world population day?",
-	"Who is the first person to draw the map of earth?",
-	"Who was the first lady astronaut?",
-	"Who is the father of chemistry?",
-	"Who is the inventor of Rail Engine?",
-	"Which is the capital of America?",
-	"Which is not the member of G-8?",
-	"Which is the biggest ocean?" };
+	"What is the capital of Spain?"
+	"Which currency is used in Spain?"
+	"Who was the King of Spain in 2020?"
+	"Which countries share a land border with Spain?"
+	"How do you say Spain in Spanish?"
+	"When is Spain’s national day?"
+	"Who is the head of State in Spain?"
+	"What is the longest river passing in Spain?"
+	"How many autonomous communities are there in Spain?"
+	"What was Queen Letizia’s job at CNN+ and TVE?" };
 	
 	string allOptionsBulgaria[10][4] = {    // all options
 	{"Maldivs","Vatican city","Fizi","Tuvalue"},
@@ -216,35 +216,35 @@ int main()
 	{"Tomas alva","George King","Valentina Terescova","Nil Armstrong"},
 	{"Thomson","Robert boyel","John Dalton","Demitri Mendelieve"},
 	{"Jems watt","Michel Farady","Stiphenson","Kohen"},
-	{"Washington Dc","Moscow","Hawaii","California"},
-	{"France","Italy","Spain","Jarmany"},
-	{"Arctic ocean","Pacific Ocean","Indian ocean","Atlantic"},
+	{"Washington Dc","Moscow","Tarator","California"},
+	{"Yes","Yes","Yes","Yes"},
+	{"Yes","No","Ok","3"},
 	};
 	
 	string allOptionsGermany[10][4] = {    // all options
-	{"Maldivs","Vatican city","Fizi","Tuvalue"},
-	{"Buenes aires","Havana","Tokiyo","None of them"},
-	{"5 March","11 july","17 May","12 June"},
-	{"Aristotol","Neuton","Anaximander","Thales"},
-	{"Tomas alva","George King","Valentina Terescova","Nil Armstrong"},
-	{"Thomson","Robert boyel","John Dalton","Demitri Mendelieve"},
-	{"Jems watt","Michel Farady","Stiphenson","Kohen"},
-	{"Washington Dc","Moscow","Hawaii","California"},
-	{"France","Italy","Spain","Jarmany"},
-	{"Arctic ocean","Pacific Ocean","Indian ocean","Atlantic"},
+	{"Maldivs","Berlin","Fizi","Tuvalue"},
+	{"Federal Republic","Havana","Tokiyo","None of them"},
+	{"5 March","11 july","Euro","Lev"},
+	{"Angela Merkel","Neuton","Anaximander","Thales"},
+	{"Tomas alva","Black, Red and Gold. ","Valentina Terescova","Nil Armstrong"},
+	{"Thomson","Robert boyel","John Dalton","One. German."},
+	{"Jems watt","Denmark, Poland, Czech Republic, Switzerland, Austria, France, Luxembourg, the Netherlands and Belgium","Stiphenson","Kohen"},
+	{"Washington Dc","Moscow","Deutschland","California"},
+	{"France","Italy","Spain","Autobahn"},
+	{"Arctic","Pacific","Indian ocean","The currency in Germany before euro."},
 	};
 	
 	string allOptionsSpain[10][4] = {    // all options
-	{"Maldivs","Vatican city","Fizi","Tuvalue"},
-	{"Buenes aires","Havana","Tokiyo","None of them"},
-	{"5 March","11 july","17 May","12 June"},
-	{"Aristotol","Neuton","Anaximander","Thales"},
-	{"Tomas alva","George King","Valentina Terescova","Nil Armstrong"},
-	{"Thomson","Robert boyel","John Dalton","Demitri Mendelieve"},
-	{"Jems watt","Michel Farady","Stiphenson","Kohen"},
-	{"Washington Dc","Moscow","Hawaii","California"},
-	{"France","Italy","Spain","Jarmany"},
-	{"Arctic ocean","Pacific Ocean","Indian ocean","Atlantic"},
+	{"Maldivs","Madrid","Fizi","Tuvalue"},
+	{"Buenes aires","Lev","Euro","None of them"},
+	{"Felipe VI","11 july","Borisov","12 June"},
+	{"Aristotol","Morocco, Andorra, France, Portugal, and Gibraltar","Anaximander","Thales"},
+	{"Tomas alva","España","Valentina Terescova","Nil Armstrong"},
+	{"Thomson","Robert boyel","John Dalton","12th of October"},
+	{"Jems watt","The King","Stiphenson","Kohen"},
+	{"Washington Dc","Moscow","Rio Tejo (River Tagus)","California"},
+	{"17","Italy","Spain","Jarmany"},
+	{"Arctic ocean","Pacific Ocean","News Anchor","Atlantic"},
 	};
 	
 	string correctAnsBulgaria[10] = {    // correct options
