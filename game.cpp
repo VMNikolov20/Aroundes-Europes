@@ -9,6 +9,7 @@ using namespace std;
 
 void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[])
 {
+	system("cls");
 	for (int i = 0; i < totalQ; i++) {
 		cout << "Question No: " << (i + 1) << endl;
 		cout << allQuestions[i] << endl;
@@ -19,6 +20,7 @@ void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], in
 
 		cout << "Select your answer as 1, 2, 3 or 4 here : ";
 		cin >> selectedOption[i];
+		system("cls");
 	}
 }
 
