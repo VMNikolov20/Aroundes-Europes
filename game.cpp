@@ -101,7 +101,7 @@ int main()
 		"Washington DC","Spain","Pacific Ocean"
 	};
 
-
+	int selectCountry;
 
 
 }
