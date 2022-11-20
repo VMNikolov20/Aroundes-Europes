@@ -209,14 +209,14 @@ int main()
 	"What was Queen Letizia’s job at CNN+ and TVE?" };
 	
 	string allOptionsBulgaria[10][4] = {    // all options
-	{"Maldivs","Vatican city","Fizi","Tuvalue"},
-	{"Buenes aires","Havana","Tokiyo","None of them"},
-	{"5 March","11 july","17 May","12 June"},
-	{"Aristotol","Neuton","Anaximander","Thales"},
-	{"Tomas alva","George King","Valentina Terescova","Nil Armstrong"},
-	{"Thomson","Robert boyel","John Dalton","Demitri Mendelieve"},
-	{"Jems watt","Michel Farady","Stiphenson","Kohen"},
-	{"Washington Dc","Moscow","Tarator","California"},
+	{"Sofia","Vatican city","Varna","Tuvalue"},
+	{"Burgas","Sofia","Tokiyo","None of them"},
+	{"Aristotol","Neuton","Anaximander","Khan Asparuh"},
+	{"5 March 556","1245","681","12 June 680"},
+	{"Tomas alva","George King","Tervel","Nil Armstrong"},
+	{"Thomson","Kubrat","John Dalton","Demitri Mendelieve"},
+	{"Jems watt","Black sea","Atlantic","Kohen"},
+	{"Supa","Moscow","Tarator","California"},
 	{"Yes","Yes","Yes","Yes"},
 	{"Yes","No","Ok","3"},
 	};
