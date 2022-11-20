@@ -134,7 +134,7 @@ void swtichCase(int selectCountry, int totalQ, string allQuestionsBulgaria[], st
 		
 		break;
 
-	default: check2 = 1;
+	
 	}
 }
 
