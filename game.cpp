@@ -95,7 +95,7 @@ void swtichCase(int selectCountry, int totalQ, string allQuestionsBulgaria[], st
 		
 		selectOptionBulgaira(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption, check2);
 		cout << check2;
-		check();
+		
 		
 		printCorrectOptions();
 		
