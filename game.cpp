@@ -246,6 +246,8 @@ int main()
 	int incorrect = 0;
 	int skipped = 0;
 	
+	string check1;
+	
 	while (true)
 	{
 		system("cls");
