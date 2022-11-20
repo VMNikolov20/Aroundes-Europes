@@ -110,6 +110,10 @@ int main()
 	cout << "1.Bulgaria" << endl;
 	cout << "2.Germany" << endl;
 	cout << "3.Spain" << endl;
+	cin >> selectCountry;
+	int correct = 0;
+	int incorrect = 0;
+	int skipped = 0;
 
 
 }
