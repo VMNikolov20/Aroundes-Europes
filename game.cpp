@@ -11,7 +11,7 @@ bool check2;
 void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[], bool check2)
 {
 	system("cls"); //clear screen
-	for (int i = 0; i < totalQ; i++) {
+	for (int i = 0; i < totalQ; i++) { //print questions and options
 		cout << "Question No: " << (i + 1) << endl;
 		cout << allQuestions[i] << endl;
 		cout << "1." << allOptions[i][0] << endl;
@@ -19,8 +19,8 @@ void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], in
 		cout << "3." << allOptions[i][2] << endl;
 		cout << "4." << allOptions[i][3] << endl << endl;
 		
-		cout << "Select your answer as 1, 2, 3 or 4 here : ";
-		cin >> selectedOption[i];
+		cout << "Select your answer as 1, 2, 3 or 4 here : "; 
+		cin >> selectedOption[i]; // selecting an option
 		if (selectedOption[i] == 1 || selectedOption[i] == 2 || selectedOption[i] == 3 || selectedOption[i] == 4 || selectedOption[i] == 0)
 		{	}
 		else
@@ -43,7 +43,7 @@ void resetSelectedOption(int selectedOption[])
 void compareQuestions(int totalQ,string allQuestions[], string allOptions[10][4], int selectedOption[], string correctAns[])
 {
 	
-	for (int i = 0; i < totalQ; i++) {
+	for (int i = 0; i < totalQ; i++) { //print questions and options
 		cout << "Question No: " << (i + 1) << endl;
 		cout << allQuestions[i] << endl;
 		cout << "1." << allOptions[i][0] << endl;
@@ -52,12 +52,12 @@ void compareQuestions(int totalQ,string allQuestions[], string allOptions[10][4]
 		cout << "4." << allOptions[i][3] << endl;
 
 		if (selectedOption[i] == 0) {
-			cout << "You have Skipped this Question." << endl;
+			cout << "You have Skipped this Question." << endl; // shows the skipped question
 		}
 		else {
-			cout << "You have Selected : " << allOptions[i][selectedOption[i] - 1] << endl;
+			cout << "You have Selected : " << allOptions[i][selectedOption[i] - 1] << endl; // print selected option
 		}
-		cout << "Correct Option was : " << correctAns[i] << endl << endl;
+		cout << "Correct Option was : " << correctAns[i] << endl << endl; // print correct option
 
 		cout << "Press any key to continue checking..." << endl;
 		char character = _getch();
@@ -92,7 +92,7 @@ void printCorrectOptions()
 
 void result(int totalQ, int selectedOption[], string correctAnsBulgaria[], string allOptionsBulgaria[10][4], int correct, int incorrect, int skipped)
 {
-	for (int i = 0; i < totalQ; i++)
+	for (int i = 0; i < totalQ; i++) //counting skipped, corrected and incorrected questions
 	{
 		if (selectedOption[i] != 0) {
 			if (correctAnsBulgaria[i] == allOptionsBulgaria[i][selectedOption[i] - 1]) {
@@ -106,7 +106,7 @@ void result(int totalQ, int selectedOption[], string correctAnsBulgaria[], strin
 			skipped++;
 		}
 	}
-	cout << "Total number of questions : " << totalQ << endl;
+	cout << "Total number of questions : " << totalQ << endl; //prints total number of questions
 	cout << "Correct answer : " << correct << endl;
 	cout << "Wrong answer : " << incorrect << endl;
 	cout << "Skipped : " << skipped << endl;
