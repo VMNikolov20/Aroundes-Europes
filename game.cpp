@@ -43,4 +43,18 @@ int main()
 	"Which is the capital of America?",
 	"Which is not the member of G-8?",
 	"Which is the biggest ocean?" };
+	
+	string allOptionsBulgaria[10][4] = {    // all options
+	{"Maldivs","Vatican city","Fizi","Tuvalue"},
+	{"Buenes aires","Havana","Tokiyo","None of them"},
+	{"5 March","11 july","17 May","12 June"},
+	{"Aristotol","Neuton","Anaximander","Thales"},
+	{"Tomas alva","George King","Valentina Terescova","Nil Armstrong"},
+	{"Thomson","Robert boyel","John Dalton","Demitri Mendelieve"},
+	{"Jems watt","Michel Farady","Stiphenson","Kohen"},
+	{"Washington Dc","Moscow","Hawaii","California"},
+	{"France","Italy","Spain","Jarmany"},
+	{"Arctic ocean","Pacific Ocean","Indian ocean","Atlantic"},
+	};
+
 }
