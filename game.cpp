@@ -105,6 +105,11 @@ int main()
 	int selectedOption[10] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 	int totalQ = 10;
 	int op;
+	
+	cout << "Select a country:" << endl;
+	cout << "1.Bulgaria" << endl;
+	cout << "2.Germany" << endl;
+	cout << "3.Spain" << endl;
 
 
 }
