@@ -3,7 +3,24 @@
 #include <conio.h>
 
 
+
 using namespace std;
+
+
+void selectOptionBulgaira(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[])
+{
+	for (int i = 0; i < totalQ; i++) {
+		cout << "Question No: " << (i + 1) << endl;
+		cout << allQuestions[i] << endl;
+		cout << "1." << allOptions[i][0] << endl;
+		cout << "2." << allOptions[i][1] << endl;
+		cout << "3." << allOptions[i][2] << endl;
+		cout << "4." << allOptions[i][3] << endl << endl;
+
+		cout << "Select your answer as 1, 2, 3 or 4 here : ";
+		cin >> selectedOption[i];
+	}
+}
 
 int main()
 {
@@ -122,6 +139,8 @@ int main()
 		case 3:
 		default:;
 	}
+	
+	
 
 
 }
