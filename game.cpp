@@ -277,6 +277,10 @@ int main()
 	
 	string check1;
 	
+	cout << "Europe Adventure" << endl;
+    cout << "Press any key to start...";
+
+    char character = _getch();
 	
 	while (true)
 	{
