@@ -8,7 +8,7 @@ using namespace std;
 
 bool check2;
 
-void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[])
+void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[], bool check2)
 {
 	system("cls");
 	for (int i = 0; i < totalQ; i++) {
