@@ -94,6 +94,13 @@ int main()
 		"Valentina Terescova","Robert boyel","Stiphenson",
 		"Washington DC","Spain","Pacific Ocean"
 	};
+	
+	string correctAnsSpain[10] = {    // correct options
+		"Vatican city","Buenes aires","11 july","Anaximander",
+		"Valentina Terescova","Robert boyel","Stiphenson",
+		"Washington DC","Spain","Pacific Ocean"
+	};
+
 
 
 
