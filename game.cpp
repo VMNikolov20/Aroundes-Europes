@@ -22,6 +22,33 @@ void selectOptionBulgaira(int totalQ, string allQuestions[],string allOptions[10
 	}
 }
 
+void compareQuestions(int totalQ,string allQuestions[], string allOptions[10][4], int selectedOption[], string correctAns[])
+{
+	
+	for (int i = 0; i < totalQ; i++) {
+		cout << "Question No: " << (i + 1) << endl;
+		cout << allQuestions[i] << endl;
+		cout << "1." << allOptions[i][0] << endl;
+		cout << "2." << allOptions[i][1] << endl;
+		cout << "3." << allOptions[i][2] << endl;
+		cout << "4." << allOptions[i][3] << endl;
+
+		if (selectedOption[i] == 0) {
+			cout << "You have Skipped this Question." << endl;
+		}
+		else {
+			cout << "You have Selected : " << allOptions[i][selectedOption[i] - 1] << endl;
+		}
+		cout << "Correct Option was : " << correctAns[i] << endl << endl;
+
+		cout << "Press any key to continue checking..." << endl;
+		char character = _getch();
+		
+		cout << endl << "---------------------------------------------" << endl;
+	}
+}
+
+
 int main()
 {
   string allQuestionsBulgaria[10] = {    
