@@ -55,6 +55,13 @@ void printResult()
 	cout << "************************************ " << endl << endl;
 }
 
+void printCorrectOptions()
+{
+	cout << "********************************* " << endl;
+	cout << "****** Compare your answer ****** " << endl;
+	cout << "********************************* " << endl << endl;
+}
+
 
 int main()
 {
