@@ -247,6 +247,7 @@ int main()
 	int skipped = 0;
 	
 	string check1;
+	string check2;
 	
 	while (true)
 	{
