@@ -212,7 +212,14 @@ int main()
 		printResult();
 		result(totalQ, selectedOption, correctAnsBulgaria, allOptionsBulgaria, correct, incorrect, skipped);
 		break;
+			
 		case 3:
+		selectOptionBulgaira(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption);
+		printCorrectOptions();
+		compareQuestions(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption, correctAnsSpain);
+		printResult();
+		result(totalQ, selectedOption, correctAnsSpain, allOptionsSpain, correct, incorrect, skipped);
+		break;
 		default:;
 	}
 	
