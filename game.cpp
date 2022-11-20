@@ -198,6 +198,12 @@ int main()
 	switch(selectCountry)
 	{
 		case 1:
+		selectOptionBulgaira(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption);
+		printCorrectOptions();
+		compareQuestions(totalQ, allQuestionsBulgaria,  allOptionsBulgaria,selectedOption, correctAnsBulgaria);
+		printResult();
+		result(totalQ, selectedOption, correctAnsBulgaria, allOptionsBulgaria, correct, incorrect, skipped);
+		break;
 		case 2:
 		case 3:
 		default:;
