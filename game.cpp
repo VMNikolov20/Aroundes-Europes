@@ -24,7 +24,7 @@ void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], in
 		{	}
 		else
 		{
-			check(check2);
+			
 			i = 9;
 			
 		}
