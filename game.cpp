@@ -241,14 +241,41 @@ int main()
 	int totalQ = 10;
 	int op;
 	
-	cout << "Select a country:" << endl;
-	cout << "1.Bulgaria" << endl;
-	cout << "2.Germany" << endl;
-	cout << "3.Spain" << endl;
-	cin >> selectCountry;
+	
 	int correct = 0;
 	int incorrect = 0;
 	int skipped = 0;
+	
+	while (true)
+	{
+		system("cls");
+		printSelectCountry();
+		cin >> selectCountry;
+		if (selectCountry == 1 || selectCountry == 2 || selectCountry == 3 )
+		{
+			
+		}
+		else
+		{
+			cout << "Incorrect input!";
+			break;
+		}
+		swtichCase(selectCountry, totalQ, allQuestionsBulgaria, allQuestionsGermany, allOptionsGermany, allQuestionsSpain, allOptionsSpain, correctAnsSpain, correctAnsGermany, allOptionsBulgaria, selectedOption, correctAnsBulgaria, correct, incorrect, skipped, check2);
+		system("cls");
+		if (check2 == 1)
+		{
+			return 0;
+		}
+		cout << "Would you like to continue?" << endl;
+		cin >> check1;
+		if (check1 == "No" || check1 == "no")
+		{
+			break;
+		}
+
+		
+		
+	}
 	
 	
 
