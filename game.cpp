@@ -17,9 +17,17 @@ void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], in
 		cout << "2." << allOptions[i][1] << endl;
 		cout << "3." << allOptions[i][2] << endl;
 		cout << "4." << allOptions[i][3] << endl << endl;
-
+		
 		cout << "Select your answer as 1, 2, 3 or 4 here : ";
 		cin >> selectedOption[i];
+		if (selectedOption[i] == 1 || selectedOption[i] == 2 || selectedOption[i] == 3 || selectedOption[i] == 4 || selectedOption[i] == 0)
+		{	}
+		else
+		{
+			check(check2);
+			i = 9;
+			
+		}
 		system("cls");
 	}
 }
