@@ -101,7 +101,7 @@ void swtich(int selectCountry, int totalQ, string allQuestionsBulgaria[], string
 	{
 	case 1:
 		
-		selectOptionBulgaira(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption, check2);
+		selectOption(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption, check2);
 		
 		if (check2 == 1)
 		{
@@ -118,7 +118,7 @@ void swtich(int selectCountry, int totalQ, string allQuestionsBulgaria[], string
 		break;
 
 	case 2:
-		selectOptionBulgaira(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption, check2);
+		selectOption(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption, check2);
 		if (check2 == 1)
 		{
 			break;
@@ -132,7 +132,7 @@ void swtich(int selectCountry, int totalQ, string allQuestionsBulgaria[], string
 		break;
 
 	case 3:
-		selectOptionBulgaira(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption, check2);
+		selectOption(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption, check2);
 		if (check2 == 1)
 		{
 			break;
