@@ -82,6 +82,12 @@ int main()
 	{"France","Italy","Spain","Jarmany"},
 	{"Arctic ocean","Pacific Ocean","Indian ocean","Atlantic"},
 	};
+	
+	string correctAnsBulgaria[10] = {    // correct options
+		"Vatican city","Buenes aires","11 july","Anaximander",
+		"Valentina Terescova","Robert boyel","Stiphenson",
+		"Washington DC","Spain","Pacific Ocean"
+	};
 
 
 }
