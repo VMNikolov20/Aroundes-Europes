@@ -248,21 +248,21 @@ int main()
 	};
 	
 	string correctAnsBulgaria[10] = {    // correct options
-		"Vatican city","Buenes aires","11 july","Anaximander",
-		"Valentina Terescova","Robert boyel","Stiphenson",
-		"Washington DC","Spain","Pacific Ocean"
+		"Sofia","Sofia","Khan Asparuh","681",
+		"Tervel","Kubrat","Black sea",
+		"Tarator","Yes","No"
 	};
 	
 	string correctAnsGermany[10] = {    // correct options
-		"Vatican city","Buenes aires","11 july","Anaximander",
-		"Valentina Terescova","Robert boyel","Stiphenson",
-		"Washington DC","Spain","Pacific Ocean"
+		"Berlin","Federal Republic","Euro","Anaximander",
+		"Black, Red and Gold.","One. German.","Denmark, Poland, Czech Republic, Switzerland, Austria, France, Luxembourg, the Netherlands and Belgium",
+		"Deutschland","Autobahn","The currency in Germany before euro."
 	};
 	
 	string correctAnsSpain[10] = {    // correct options
-		"Vatican city","Buenes aires","11 july","Anaximander",
-		"Valentina Terescova","Robert boyel","Stiphenson",
-		"Washington DC","Spain","Pacific Ocean"
+		"Madrid","Euro","Felipe VI","Morocco, Andorra, France, Portugal, and Gibraltar",
+		"España","John Dalton","Jems watt",
+		"Rio Tejo (River Tagus)","Italy","News Anchor"
 	};
 
 	int selectCountry;
