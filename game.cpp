@@ -7,7 +7,7 @@
 using namespace std;
 
 
-void selectOptionBulgaira(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[])
+void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[])
 {
 	for (int i = 0; i < totalQ; i++) {
 		cout << "Question No: " << (i + 1) << endl;
@@ -198,7 +198,7 @@ int main()
 	switch(selectCountry)
 	{
 		case 1:
-		selectOptionBulgaira(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption);
+		selectOption(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption);
 		printCorrectOptions();
 		compareQuestions(totalQ, allQuestionsBulgaria,  allOptionsBulgaria,selectedOption, correctAnsBulgaria);
 		printResult();
@@ -206,7 +206,7 @@ int main()
 		break;
 			
 		case 2:
-		selectOptionBulgaira(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption);
+		selectOption(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption);
 		printCorrectOptions();
 		compareQuestions(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption, correctAnsGermany);
 		printResult();
@@ -214,7 +214,7 @@ int main()
 		break;
 			
 		case 3:
-		selectOptionBulgaira(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption);
+		selectOption(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption);
 		printCorrectOptions();
 		compareQuestions(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption, correctAnsSpain);
 		printResult();
