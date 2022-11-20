@@ -103,6 +103,8 @@ int main()
 
 	int selectCountry;
 	int selectedOption[10] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+	int totalQ = 10;
+	int op;
 
 
 }
