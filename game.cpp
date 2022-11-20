@@ -287,7 +287,7 @@ int main()
 		system("cls"); //clear screen
 		printSelectCountry();
 		cin >> selectCountry;
-		if (selectCountry == 1 || selectCountry == 2 || selectCountry == 3 )
+		if (selectCountry == 1 || selectCountry == 2 || selectCountry == 3 ) //checks for incorrect input
 		{
 			
 		}
@@ -302,7 +302,7 @@ int main()
 		{
 			return 0;
 		}
-		cout << "Would you like to continue?" << endl;
+		cout << "Would you like to continue?" << endl; //asks if you want to continue and start with another country
 		cin >> check1;
 		if (check1 == "No" || check1 == "no")
 		{
