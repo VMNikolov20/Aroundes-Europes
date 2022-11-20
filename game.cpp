@@ -220,7 +220,7 @@ int main()
 		printResult();
 		result(totalQ, selectedOption, correctAnsSpain, allOptionsSpain, correct, incorrect, skipped);
 		break;
-		default:;
+		default:  cout << "Incorrect input!";
 	}
 	
 	
