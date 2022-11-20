@@ -6,6 +6,7 @@
 
 using namespace std;
 
+bool check2;
 
 void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[])
 {
@@ -24,7 +25,7 @@ void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], in
 		{	}
 		else
 		{
-			
+			check2 = true;
 			i = 9;
 			
 		}
@@ -265,7 +266,7 @@ int main()
 	int skipped = 0;
 	
 	string check1;
-	string check2;
+	
 	
 	while (true)
 	{
