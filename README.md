@@ -1,6 +1,5 @@
 ## Hello, We are Aroundes Europes✨
 
-Website for information about the countries in Europe.
 ---------------------------------------------- --------------------------------------
 You will be tested on your knowledge about 3 countries
 1. Bulgaria
