@@ -47,6 +47,13 @@ void compareQuestions(int totalQ,string allQuestions[], string allOptions[10][4]
 		cout << endl << "---------------------------------------------" << endl;
 	}
 }
+void printResult()
+{
+	cout << endl << endl;
+	cout << "************************************ " << endl;
+	cout << "*********** Your Result ************ " << endl;
+	cout << "************************************ " << endl << endl;
+}
 
 
 int main()
