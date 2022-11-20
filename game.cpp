@@ -94,7 +94,7 @@ void result(int totalQ, int selectedOption[], string correctAnsBulgaria[], strin
 	cout << "Skipped : " << skipped << endl;
 }
 
-void swtichCase(int selectCountry, int totalQ, string allQuestionsBulgaria[], string allQuestionsGermany[], string allOptionsGermany[10][4],string allQuestionsSpain[],string  allOptionsSpain[10][4],string correctAnsSpain[], string correctAnsGermany[], string allOptionsBulgaria[10][4], int selectedOption[], string correctAnsBulgaria[], int correct, int incorrect, int skipped, bool check2)
+void swtich(int selectCountry, int totalQ, string allQuestionsBulgaria[], string allQuestionsGermany[], string allOptionsGermany[10][4],string allQuestionsSpain[],string  allOptionsSpain[10][4],string correctAnsSpain[], string correctAnsGermany[], string allOptionsBulgaria[10][4], int selectedOption[], string correctAnsBulgaria[], int correct, int incorrect, int skipped, bool check2)
 {
 	
 	switch (selectCountry)
