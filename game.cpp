@@ -208,7 +208,7 @@ int main()
 	"How many autonomous communities are there in Spain?"
 	"What was Queen Letizia’s job at CNN+ and TVE?" };
 	
-	string allOptionsBulgaria[10][4] = {    // all options
+	string allOptionsBulgaria[10][4] = {    // all options for Bulgaria
 	{"Sofia","Vatican city","Varna","Tuvalue"},
 	{"Burgas","Sofia","Tokiyo","None of them"},
 	{"Aristotol","Neuton","Anaximander","Khan Asparuh"},
@@ -221,7 +221,7 @@ int main()
 	{"Yes","No","Ok","3"},
 	};
 	
-	string allOptionsGermany[10][4] = {    // all options
+	string allOptionsGermany[10][4] = {    // all options Germany
 	{"Maldivs","Berlin","Fizi","Tuvalue"},
 	{"Federal Republic","Havana","Tokiyo","None of them"},
 	{"5 March","11 july","Euro","Lev"},
@@ -234,7 +234,7 @@ int main()
 	{"Arctic","Pacific","Indian ocean","The currency in Germany before euro."},
 	};
 	
-	string allOptionsSpain[10][4] = {    // all options
+	string allOptionsSpain[10][4] = {    // all options Spain
 	{"Maldivs","Madrid","Fizi","Tuvalue"},
 	{"Buenes aires","Lev","Euro","None of them"},
 	{"Felipe VI","11 july","Borisov","12 June"},
@@ -247,19 +247,19 @@ int main()
 	{"Arctic ocean","Pacific Ocean","News Anchor","Atlantic"},
 	};
 	
-	string correctAnsBulgaria[10] = {    // correct options
+	string correctAnsBulgaria[10] = {    // correct options about Bulgaria
 		"Sofia","Sofia","Khan Asparuh","681",
 		"Tervel","Kubrat","Black sea",
 		"Tarator","Yes","No"
 	};
 	
-	string correctAnsGermany[10] = {    // correct options
+	string correctAnsGermany[10] = {    // correct options about Germany
 		"Berlin","Federal Republic","Euro","Anaximander",
 		"Black, Red and Gold.","One. German.","Denmark, Poland, Czech Republic, Switzerland, Austria, France, Luxembourg, the Netherlands and Belgium",
 		"Deutschland","Autobahn","The currency in Germany before euro."
 	};
 	
-	string correctAnsSpain[10] = {    // correct options
+	string correctAnsSpain[10] = {    // correct options about Spain
 		"Madrid","Euro","Felipe VI","Morocco, Andorra, France, Portugal, and Gibraltar",
 		"España","John Dalton","Jems watt",
 		"Rio Tejo (River Tagus)","Italy","News Anchor"
