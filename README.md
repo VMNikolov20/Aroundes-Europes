@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://cdn.discordapp.com/attachments/947425592398213200/952959779465220146/logo-removebg-preview.png" width="300">
-</p>
-
 ## Hello, We are Aroundes Europes✨
 
 Website for information about the countries in Europe.
