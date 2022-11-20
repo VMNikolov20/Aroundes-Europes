@@ -114,6 +114,14 @@ int main()
 	int correct = 0;
 	int incorrect = 0;
 	int skipped = 0;
+	
+	switch(selectCountry)
+	{
+		case 1:
+		case 2:
+		case 3:
+		default:;
+	}
 
 
 }
