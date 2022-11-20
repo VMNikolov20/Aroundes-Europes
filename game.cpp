@@ -31,6 +31,13 @@ void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], in
 		system("cls");
 	}
 }
+void resetSelectedOption(int selectedOption[])
+{
+	for (int i = 0; i < 10; i++)
+	{
+		selectedOption[i] = 0;
+	}
+}
 
 void compareQuestions(int totalQ,string allQuestions[], string allOptions[10][4], int selectedOption[], string correctAns[])
 {
