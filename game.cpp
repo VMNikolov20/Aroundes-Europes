@@ -86,6 +86,59 @@ void result(int totalQ, int selectedOption[], string correctAnsBulgaria[], strin
 	cout << "Skipped : " << skipped << endl;
 }
 
+void swtichCase(int selectCountry, int totalQ, string allQuestionsBulgaria[], string allQuestionsGermany[], string allOptionsGermany[10][4],string allQuestionsSpain[],string  allOptionsSpain[10][4],string correctAnsSpain[], string correctAnsGermany[], string allOptionsBulgaria[10][4], int selectedOption[], string correctAnsBulgaria[], int correct, int incorrect, int skipped, bool check2)
+{
+	
+	switch (selectCountry)
+	{
+	case 1:
+		
+		selectOptionBulgaira(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption, check2);
+		cout << check2;
+		check();
+		
+		printCorrectOptions();
+		
+		compareQuestions(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption, correctAnsBulgaria);
+		printResult();
+		result(totalQ, selectedOption, correctAnsBulgaria, allOptionsBulgaria, correct, incorrect, skipped);
+		resetSelectedOption(selectedOption);
+	
+		break;
+
+	case 2:
+		selectOptionBulgaira(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption, check2);
+		if (check2 == 1)
+		{
+			break;
+		}
+		printCorrectOptions();
+		compareQuestions(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption, correctAnsGermany);
+		printResult();
+		result(totalQ, selectedOption, correctAnsBulgaria, allOptionsBulgaria, correct, incorrect, skipped);
+		resetSelectedOption(selectedOption);
+		
+		break;
+
+	case 3:
+		selectOptionBulgaira(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption, check2);
+		if (check2 == 1)
+		{
+			break;
+		}
+		printCorrectOptions();
+		compareQuestions(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption, correctAnsSpain);
+		printResult();
+		result(totalQ, selectedOption, correctAnsSpain, allOptionsSpain, correct, incorrect, skipped);
+		resetSelectedOption(selectedOption);
+		
+		break;
+
+	default: check2 = 1;
+	}
+}
+
+
 
 int main()
 {
@@ -196,34 +249,6 @@ int main()
 	int correct = 0;
 	int incorrect = 0;
 	int skipped = 0;
-	
-	switch(selectCountry)
-	{
-		case 1:
-		selectOption(totalQ, allQuestionsBulgaria, allOptionsBulgaria, selectedOption);
-		printCorrectOptions();
-		compareQuestions(totalQ, allQuestionsBulgaria,  allOptionsBulgaria,selectedOption, correctAnsBulgaria);
-		printResult();
-		result(totalQ, selectedOption, correctAnsBulgaria, allOptionsBulgaria, correct, incorrect, skipped);
-		break;
-			
-		case 2:
-		selectOption(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption);
-		printCorrectOptions();
-		compareQuestions(totalQ, allQuestionsGermany, allOptionsGermany, selectedOption, correctAnsGermany);
-		printResult();
-		result(totalQ, selectedOption, correctAnsBulgaria, allOptionsBulgaria, correct, incorrect, skipped);
-		break;
-			
-		case 3:
-		selectOption(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption);
-		printCorrectOptions();
-		compareQuestions(totalQ, allQuestionsSpain, allOptionsSpain, selectedOption, correctAnsSpain);
-		printResult();
-		result(totalQ, selectedOption, correctAnsSpain, allOptionsSpain, correct, incorrect, skipped);
-		break;
-		default:  cout << "Incorrect input!";
-	}
 	
 	
 
