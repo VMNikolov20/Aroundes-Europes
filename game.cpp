@@ -10,7 +10,7 @@ bool check2;
 
 void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], int selectedOption[], bool check2)
 {
-	system("cls");
+	system("cls"); //clear screen
 	for (int i = 0; i < totalQ; i++) {
 		cout << "Question No: " << (i + 1) << endl;
 		cout << allQuestions[i] << endl;
@@ -29,7 +29,7 @@ void selectOption(int totalQ, string allQuestions[],string allOptions[10][4], in
 			i = 9;
 			
 		}
-		system("cls");
+		system("cls"); //clear screen
 	}
 }
 void resetSelectedOption(int selectedOption[])
@@ -284,7 +284,7 @@ int main()
 	
 	while (true)
 	{
-		system("cls");
+		system("cls"); //clear screen
 		printSelectCountry();
 		cin >> selectCountry;
 		if (selectCountry == 1 || selectCountry == 2 || selectCountry == 3 )
@@ -297,7 +297,7 @@ int main()
 			break;
 		}
 		swtich(selectCountry, totalQ, allQuestionsBulgaria, allQuestionsGermany, allOptionsGermany, allQuestionsSpain, allOptionsSpain, correctAnsSpain, correctAnsGermany, allOptionsBulgaria, selectedOption, correctAnsBulgaria, correct, incorrect, skipped, check2);
-		system("cls");
+		system("cls"); //clear screen
 		if (check2 == 1)
 		{
 			return 0;
